@@ -48,5 +48,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<h3><span style='color:red'>Login Error</span></h3>";
     }
 }
+?>
 </body>
 </html>
