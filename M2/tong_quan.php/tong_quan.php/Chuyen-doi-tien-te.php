@@ -13,8 +13,8 @@
         var_dump ($_REQUEST);
         echo '</pre>';
         $so_tien = $_REQUEST['so_tien'];
-        $vnd = $so_tien / 23000;
-        echo "VND: " . $vnd;
+        $vnd = $so_tien * 23000;
+        echo "VND: " . $vnd . " VND";
     }
     ?>
     <form action="" method="post">
