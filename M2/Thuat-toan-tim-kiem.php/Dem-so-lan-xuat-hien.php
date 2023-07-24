@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $dem++;
         }
     }
-    echo "Số lần xuất hiện của số $so_can_tim là $dem lần";
+    echo "Số lần xuất hiện của số $so_can_tim trong mảng là $dem lần";
 }
 ?>
 <form action="" method="post">
