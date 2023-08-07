@@ -77,9 +77,9 @@
 <?php
     $dataJson = file_get_contents('users.json');
     $dataArr  = json_decode($dataJson,true);
-    echo "<pre>";
-    print_r($dataArr);
-    echo "</pre>";
+    // echo "<pre>";
+    // print_r($dataArr);
+    // echo "</pre>";
 ?>
 <table border="1" width="100%">
     <tr>
